@@ -5,3 +5,14 @@
 .session-facilities {
     width: 325px;
 }
+
+.footer_link {
+    text-decoration: none;
+    color: #DAFF01;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #8fa708;
+}

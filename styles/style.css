@@ -1,0 +1,51 @@
+:root {
+    --color-purple: #9353FF;
+    --color-text: #CCCCCC;
+    --color-lime-green: #DAFF01;
+}
+
+.color-light {
+    color: var(--color-text);
+}
+
+.color-lime {
+    color: var(--color-lime-green);
+}
+
+.btn-purple {
+    background-color: var(--color-purple);
+    color: #ffffff;
+}
+
+.position{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .position{
+        top:60%;
+    }
+}
+
+.smaller-text {
+    font-size: 13px;
+}
+
+.session-facilities {
+    width: 325px;
+}
+
+footer {
+    color: var(--color-text);
+}
+
+.footer_link {
+    text-decoration: none;
+    color: var(--color-lime-green);
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #8fa708;
+}
